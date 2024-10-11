@@ -1,0 +1,20 @@
+* {
+    font-family: "Istok Web", sans-serif;
+
+}
+
+:root {
+    --azul: #003262;
+    --azule: #2072AF;
+    --eazul: #0047AB;
+    --aezul: #00416A;
+    --azeul: #002147;
+
+}
+
+header {
+    background-color: var(--azul);
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
