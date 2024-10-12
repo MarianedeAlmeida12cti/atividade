@@ -1,20 +1,71 @@
 * {
     font-family: "Istok Web", sans-serif;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    --azul: #003262;
-    --azule: #2072AF;
-    --eazul: #0047AB;
-    --aezul: #00416A;
-    --azeul: #002147;
+    --azul: #21295C;
+    --azule: #1B3B6F;
+    --eazul: #489FB5;
+    --aezul: #82C0CC;
+    --azeul: #EDE7E3;
 
 }
 
 header {
-    background-color: var(--azul);
+    padding-top: 2rem;
+    background-color: var(--eazul);
     height: 6rem;
     display: flex;
     justify-content: center;
 }
+
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 3rem;
+}
+
+.first img {
+    height: 13rem;
+}
+
+.first p {
+    max-width: 35rem;
+}
+
+.second {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--aezul);
+    margin-bottom: 3rem;
+}
+
+.second img {
+    height: 13rem;
+}
+
+.second p {
+    max-width: 35rem;
+}
+
+.third {
+    margin-bottom: 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: red;
+}
+
+.third img {
+    padding-bottom: 2rem;
+    max-height: 30rem;
+    max-width: 30rem;
+}
+
